@@ -30,8 +30,5 @@ SELECT * FROM test_a;
 SELECT * FROM test_b;
 
 SELECT * FROM test_a
-
--- NATURAL JOIN - не проходили --
-
 NATURAL LEFT JOIN test_b
 WHERE test_b.id IS NULL;
